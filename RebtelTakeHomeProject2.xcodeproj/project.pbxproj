@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		F73D622026EF91EC005C0805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D621F26EF91EC005C0805 /* AppDelegate.swift */; };
-		F73D622226EF91EC005C0805 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D622126EF91EC005C0805 /* SceneDelegate.swift */; };
-		F73D622426EF91EC005C0805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D622326EF91EC005C0805 /* ViewController.swift */; };
-		F73D622726EF91EC005C0805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73D622526EF91EC005C0805 /* Main.storyboard */; };
+		F73D622426EF91EC005C0805 /* CountryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D622326EF91EC005C0805 /* CountryListVC.swift */; };
 		F73D622926EF91ED005C0805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73D622826EF91ED005C0805 /* Assets.xcassets */; };
 		F73D622C26EF91ED005C0805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73D622A26EF91ED005C0805 /* LaunchScreen.storyboard */; };
+		F73D623626EF97D2005C0805 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D623426EF97D2005C0805 /* Language.swift */; };
+		F73D623726EF97D2005C0805 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D623526EF97D2005C0805 /* Country.swift */; };
+		F73D623A26EF985A005C0805 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D623926EF985A005C0805 /* NetworkManager.swift */; };
+		F73D623D26EF997F005C0805 /* DataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D623C26EF997F005C0805 /* DataLoadingVC.swift */; };
+		F73D624026EF9E05005C0805 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D623F26EF9E05005C0805 /* UIHelper.swift */; };
+		F73D624226EF9EED005C0805 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D624126EF9EED005C0805 /* CountryCell.swift */; };
+		F73D624726F08E5C005C0805 /* CountryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D624626F08E5C005C0805 /* CountryDetailsVC.swift */; };
+		F73D624926F093E3005C0805 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D624826F093E3005C0805 /* Constants.swift */; };
+		F73D624B26F0AD74005C0805 /* CountryInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D624A26F0AD74005C0805 /* CountryInfoView.swift */; };
+		F73D625126F0ADD8005C0805 /* PrimaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D625026F0ADD8005C0805 /* PrimaryLabel.swift */; };
+		F73D625326F0B1E5005C0805 /* SecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D625226F0B1E5005C0805 /* SecondaryLabel.swift */; };
+		F73D625526F0B451005C0805 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D625426F0B451005C0805 /* UIImageView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F73D621C26EF91EC005C0805 /* RebtelTakeHomeProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebtelTakeHomeProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73D621F26EF91EC005C0805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F73D622126EF91EC005C0805 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F73D622326EF91EC005C0805 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F73D622626EF91EC005C0805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F73D622326EF91EC005C0805 /* CountryListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListVC.swift; sourceTree = "<group>"; };
 		F73D622826EF91ED005C0805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F73D622B26EF91ED005C0805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F73D622D26EF91ED005C0805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73D623426EF97D2005C0805 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		F73D623526EF97D2005C0805 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		F73D623926EF985A005C0805 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F73D623C26EF997F005C0805 /* DataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoadingVC.swift; sourceTree = "<group>"; };
+		F73D623F26EF9E05005C0805 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		F73D624126EF9EED005C0805 /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		F73D624626F08E5C005C0805 /* CountryDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsVC.swift; sourceTree = "<group>"; };
+		F73D624826F093E3005C0805 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F73D624A26F0AD74005C0805 /* CountryInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoView.swift; sourceTree = "<group>"; };
+		F73D625026F0ADD8005C0805 /* PrimaryLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryLabel.swift; sourceTree = "<group>"; };
+		F73D625226F0B1E5005C0805 /* SecondaryLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryLabel.swift; sourceTree = "<group>"; };
+		F73D625426F0B451005C0805 /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,105 @@
 		F73D621E26EF91EC005C0805 /* RebtelTakeHomeProject2 */ = {
 			isa = PBXGroup;
 			children = (
-				F73D621F26EF91EC005C0805 /* AppDelegate.swift */,
-				F73D622126EF91EC005C0805 /* SceneDelegate.swift */,
-				F73D622326EF91EC005C0805 /* ViewController.swift */,
-				F73D622526EF91EC005C0805 /* Main.storyboard */,
-				F73D622826EF91ED005C0805 /* Assets.xcassets */,
-				F73D622A26EF91ED005C0805 /* LaunchScreen.storyboard */,
+				F73D625726F0B66F005C0805 /* Support */,
+				F73D623E26EF9DF2005C0805 /* Utilities */,
+				F73D624326EFA770005C0805 /* Extensions */,
+				F73D623826EF984C005C0805 /* Managers */,
+				F73D623326EF97B0005C0805 /* Models */,
+				F73D623B26EF993C005C0805 /* Custom Views */,
+				F73D625626F0B616005C0805 /* Screens */,
 				F73D622D26EF91ED005C0805 /* Info.plist */,
 			);
 			path = RebtelTakeHomeProject2;
+			sourceTree = "<group>";
+		};
+		F73D623326EF97B0005C0805 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F73D623526EF97D2005C0805 /* Country.swift */,
+				F73D623426EF97D2005C0805 /* Language.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F73D623826EF984C005C0805 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F73D623926EF985A005C0805 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F73D623B26EF993C005C0805 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				F73D625926F0B704005C0805 /* Cells */,
+				F73D625826F0B6DD005C0805 /* Views */,
+				F73D624C26F0ADA6005C0805 /* Labels */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		F73D623E26EF9DF2005C0805 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F73D623F26EF9E05005C0805 /* UIHelper.swift */,
+				F73D624826F093E3005C0805 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F73D624326EFA770005C0805 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F73D625426F0B451005C0805 /* UIImageView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F73D624C26F0ADA6005C0805 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				F73D625026F0ADD8005C0805 /* PrimaryLabel.swift */,
+				F73D625226F0B1E5005C0805 /* SecondaryLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		F73D625626F0B616005C0805 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F73D622326EF91EC005C0805 /* CountryListVC.swift */,
+				F73D624626F08E5C005C0805 /* CountryDetailsVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F73D625726F0B66F005C0805 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F73D621F26EF91EC005C0805 /* AppDelegate.swift */,
+				F73D622826EF91ED005C0805 /* Assets.xcassets */,
+				F73D622A26EF91ED005C0805 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F73D625826F0B6DD005C0805 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F73D624A26F0AD74005C0805 /* CountryInfoView.swift */,
+				F73D623C26EF997F005C0805 /* DataLoadingVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F73D625926F0B704005C0805 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F73D624126EF9EED005C0805 /* CountryCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +236,6 @@
 			files = (
 				F73D622C26EF91ED005C0805 /* LaunchScreen.storyboard in Resources */,
 				F73D622926EF91ED005C0805 /* Assets.xcassets in Resources */,
-				F73D622726EF91EC005C0805 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +246,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F73D622426EF91EC005C0805 /* ViewController.swift in Sources */,
+				F73D624226EF9EED005C0805 /* CountryCell.swift in Sources */,
+				F73D624926F093E3005C0805 /* Constants.swift in Sources */,
+				F73D623726EF97D2005C0805 /* Country.swift in Sources */,
+				F73D624726F08E5C005C0805 /* CountryDetailsVC.swift in Sources */,
+				F73D623626EF97D2005C0805 /* Language.swift in Sources */,
+				F73D623A26EF985A005C0805 /* NetworkManager.swift in Sources */,
+				F73D625526F0B451005C0805 /* UIImageView+Ext.swift in Sources */,
+				F73D625126F0ADD8005C0805 /* PrimaryLabel.swift in Sources */,
+				F73D623D26EF997F005C0805 /* DataLoadingVC.swift in Sources */,
+				F73D624B26F0AD74005C0805 /* CountryInfoView.swift in Sources */,
+				F73D622426EF91EC005C0805 /* CountryListVC.swift in Sources */,
+				F73D625326F0B1E5005C0805 /* SecondaryLabel.swift in Sources */,
 				F73D622026EF91EC005C0805 /* AppDelegate.swift in Sources */,
-				F73D622226EF91EC005C0805 /* SceneDelegate.swift in Sources */,
+				F73D624026EF9E05005C0805 /* UIHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F73D622526EF91EC005C0805 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F73D622626EF91EC005C0805 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F73D622A26EF91ED005C0805 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44R578XWNJ;
 				INFOPLIST_FILE = RebtelTakeHomeProject2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44R578XWNJ;
 				INFOPLIST_FILE = RebtelTakeHomeProject2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
